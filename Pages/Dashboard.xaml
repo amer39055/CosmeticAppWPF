@@ -24,7 +24,8 @@
             <TextBlock Text="جميع المنتجات" FontSize="30" Foreground="{DynamicResource PrimaryTextColor}" FontWeight="Bold"
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
         </Border>
-        <TextBox x:Name="txtItemCode" FontSize="14" Foreground="{DynamicResource PrimaryBlueColor}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2">
+        <Button x:Name="btnSearch" Content="بحث" Grid.Column="1" Grid.Row="0" Margin="50"></Button>
+        <TextBox x:Name="txtItemCode" FontSize="14" Foreground="{DynamicResource PrimaryBlueColor}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="50">
             
         </TextBox>
     </Grid>
