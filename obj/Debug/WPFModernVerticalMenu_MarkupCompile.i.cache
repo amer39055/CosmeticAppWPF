@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\JEYDERHT\Desktop\UI Controls\WPFModernVerticalMenu\obj\Debug\
+D:\Repos\WPFModernVerticalMenu\obj\Debug\
 WPFModernVerticalMenu
 none
 false
 DEBUG;TRACE
-C:\Users\JEYDERHT\Desktop\UI Controls\WPFModernVerticalMenu\App.xaml
-8-847745287
+D:\Repos\WPFModernVerticalMenu\App.xaml
+10529448440
 
-10429509155
-13152784993
-Assets\Icons.xaml;Controls\MenuItem.xaml;Controls\UserPopup.xaml;MainWindow.xaml;Pages\Dashboard.xaml;Pages\Home.xaml;Styles\MainStyle.xaml;Themes\DarkTheme.xaml;
+12-284870969
+13-38814620
+Assets\Icons.xaml;Controls\MenuItem.xaml;Controls\UserPopup.xaml;MainWindow.xaml;Pages\Dashboard.xaml;Pages\Home.xaml;Pages\Addproduct.xaml;Pages\Productinfo.xaml;Styles\MainStyle.xaml;Themes\DarkTheme.xaml;
 
 True
 
