@@ -12,16 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPFModernVerticalMenu.Controls;
 
-namespace WPFModernVerticalMenu.Pages
+
+namespace WPFModernVerticalMenu.Controls
 {
     /// <summary>
-    /// Lógica de interacción para Dashboard.xaml
+    /// Interaction logic for SearchBox.xaml
     /// </summary>
-    public partial class Dashboard : Page
+    public partial class SearchBox : UserControl
     {
-        public Dashboard()
+        public SearchBox()
         {
             InitializeComponent();
         }

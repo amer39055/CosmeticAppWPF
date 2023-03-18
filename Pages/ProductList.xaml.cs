@@ -12,16 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPFModernVerticalMenu.Controls;
 
 namespace WPFModernVerticalMenu.Pages
 {
     /// <summary>
-    /// Lógica de interacción para Dashboard.xaml
+    /// Interaction logic for ProductList.xaml
     /// </summary>
-    public partial class Dashboard : Page
+    public partial class ProductList : Page
     {
-        public Dashboard()
+        public ProductList()
         {
             InitializeComponent();
         }
