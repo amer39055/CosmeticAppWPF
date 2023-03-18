@@ -4,7 +4,6 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPFModernVerticalMenu.Pages"
-      xmlns:ctls="clr-namespace:WPFModernVerticalMenu.Controls"
       mc:Ignorable="d" FlowDirection="RightToLeft"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Dashboard">
@@ -25,10 +24,10 @@
             <TextBlock Text="جميع المنتجات" FontSize="30" Foreground="{DynamicResource PrimaryTextColor}" FontWeight="Bold"
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
         </Border>
-        <ctls:SearchBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2">
+        <Button x:Name="btnSearch" Content="بحث" Grid.Column="1" Grid.Row="0" Margin="50"></Button>
+        <TextBox x:Name="txtItemCode" FontSize="14" Foreground="{DynamicResource PrimaryBlueColor}" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="50">
             
-        </ctls:SearchBox>
-        
+        </TextBox>
     </Grid>
 
 </Page>

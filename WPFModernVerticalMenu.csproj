@@ -63,10 +63,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\SearchBox.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Controls\UserPopup.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -81,9 +77,6 @@
     </Compile>
     <Compile Include="Controls\MenuItem.xaml.cs">
       <DependentUpon>MenuItem.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\SearchBox.xaml.cs">
-      <DependentUpon>SearchBox.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\UserPopup.xaml.cs">
       <DependentUpon>UserPopup.xaml</DependentUpon>
@@ -108,10 +101,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\ProductList.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Styles\MainStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -133,9 +122,6 @@
     </Compile>
     <Compile Include="Pages\Productinfo.xaml.cs">
       <DependentUpon>Productinfo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\ProductList.xaml.cs">
-      <DependentUpon>ProductList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
