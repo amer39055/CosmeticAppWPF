@@ -58,3 +58,6 @@ D:\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Addproduct.g.cs
 D:\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Productinfo.g.cs
 D:\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Addproduct.baml
 D:\Repos\WPFModernVerticalMenu\obj\Debug\Pages\Productinfo.baml
+D:\Repos\WPFModernVerticalMenu\obj\Debug\WPFModernVerticalMenu.csproj.AssemblyReference.cache
+D:\Repos\WPFModernVerticalMenu\obj\Debug\Controls\SearchBox.g.cs
+D:\Repos\WPFModernVerticalMenu\obj\Debug\Controls\SearchBox.baml
