@@ -40,6 +40,14 @@ namespace WPFModernVerticalMenu.Pages {
     /// </summary>
     public partial class Home : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 30 "..\..\..\Pages\Home.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button AddOrder;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +76,12 @@ namespace WPFModernVerticalMenu.Pages {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.AddOrder = ((System.Windows.Controls.Button)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }

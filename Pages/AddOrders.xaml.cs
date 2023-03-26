@@ -13,27 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-namespace WPFModernVerticalMenu.Controls
+namespace WPFModernVerticalMenu.Pages
 {
     /// <summary>
-    /// Interaction logic for SearchBox.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
-    public partial class SearchBox : UserControl
+    public partial class AddOrders : Page
     {
-        public string SearchEntry { get; set; }
-        public bool ByName { get; set; }
-        public bool ByCode { get; set; }
-        public bool ByCat { get; set; }
-
-        public SearchBox()
+        public AddOrders()
         {
             InitializeComponent();
-            SearchEntry = txtSearchEntry.Text.Trim().ToString();
         }
-        
-    
-        
-        
     }
 }

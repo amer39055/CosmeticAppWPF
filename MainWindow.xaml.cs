@@ -151,16 +151,7 @@ namespace WPFModernVerticalMenu
             Popup.IsOpen = false;
         }
 
-        private void btnSecurity_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (Tg_Btn.IsChecked == false)
-            {
-                Popup.PlacementTarget = btnSecurity;
-                Popup.Placement = PlacementMode.Right;
-                Popup.IsOpen = true;
-                Header.PopupText.Text = "Security";
-            }
-        }
+  
 
         private void btnSecurity_MouseLeave(object sender, MouseEventArgs e)
         {
@@ -213,6 +204,10 @@ namespace WPFModernVerticalMenu
         private void btnDashboard_Click(object sender, RoutedEventArgs e)
         {
             fContainer.Navigate(new System.Uri("Pages/Dashboard.xaml", UriKind.RelativeOrAbsolute));
+        }
+        private void btnProduct_Click(object sender, RoutedEventArgs e)
+        {
+            fContainer.Navigate(new System.Uri("Pages/ProductList.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

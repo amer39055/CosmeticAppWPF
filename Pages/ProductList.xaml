@@ -21,14 +21,17 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            
         </Grid.RowDefinitions>
-        <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Grid.ColumnSpan="4" Grid.RowSpan="3">
-            <TextBlock Text="جميع المنتجات" FontSize="30" Foreground="{DynamicResource PrimaryTextColor}" FontWeight="Bold"
-                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
+        <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Grid.ColumnSpan="4" Grid.RowSpan="4">
+           
         </Border>
+        <TextBlock Text="قائمة المنتجات"/>
         <ctls:SearchBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" >
 
         </ctls:SearchBox>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=10}" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="10"/>
 
     </Grid>
 </Page>

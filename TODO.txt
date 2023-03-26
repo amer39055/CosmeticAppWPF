@@ -1,0 +1,4 @@
+﻿/////////////////// TODO list ///////////////////////////
+- discuss about home page what list should contain
+- we have list for all products in ProductlistPage
+- what should we add from Home page ?? Addproduct or add order
