@@ -118,5 +118,14 @@
         </Setter>
     </Style>
     <!-- End: Button Close | Restore | Minimize -->
-    
+    <!-- Start General Buttons -->
+    <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="{DynamicResource PrimaryBackgroundColor}"/>
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryBlueColor}"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="FontSize" Value="14"/>
+        
+
+    </Style>
+    <!-- End General Buttons-->
 </ResourceDictionary>

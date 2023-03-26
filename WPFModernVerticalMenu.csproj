@@ -112,6 +112,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\OrdersList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\ProductList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -140,6 +144,9 @@
     </Compile>
     <Compile Include="Pages\Productinfo.xaml.cs">
       <DependentUpon>Productinfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OrdersList.xaml.cs">
+      <DependentUpon>OrdersList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ProductList.xaml.cs">
       <DependentUpon>ProductList.xaml</DependentUpon>
@@ -174,6 +181,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\icons8-save-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\vecteezy_cosmetic-png-graphic-clipart-design_19152527_696.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\icons8-add-new-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -207,7 +207,22 @@ namespace WPFModernVerticalMenu
         }
         private void btnProduct_Click(object sender, RoutedEventArgs e)
         {
+            fContainer.Navigate(new System.Uri("Pages/AddProduct.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void btnProductStock_Click(object sender, RoutedEventArgs e)
+        {
             fContainer.Navigate(new System.Uri("Pages/ProductList.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void btnOrders_Click(object sender, RoutedEventArgs e)
+        {
+            fContainer.Navigate(new System.Uri("Pages/AddOrders.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void btnOrderList_Click(object sender, RoutedEventArgs e)
+        {
+            fContainer.Navigate(new System.Uri("Pages/OrdersList.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace WPFModernVerticalMenu.Pages
 {
     /// <summary>
-    /// Interaction logic for Page1.xaml
+    /// Interaction logic for ProductList.xaml
     /// </summary>
-    public partial class AddOrders : Page
+    public partial class OrdersList : Page
     {
-        public AddOrders()
+        public OrdersList()
         {
             InitializeComponent();
-
         }
     }
 }
