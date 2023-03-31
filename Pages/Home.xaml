@@ -18,9 +18,8 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+            
 
         </Grid.RowDefinitions>
     
@@ -34,6 +33,9 @@
                 <Image Source="/Pages/icons8-add-new-32.png"/>
             </StackPanel>
         </Button>
+        <Frame x:Name="fproductcontainer"  Grid.Row="1" Grid.ColumnSpan="4" Source="/Pages/ProductList.xaml">
+        
+        </Frame>
 
     </Grid>
 </Page>

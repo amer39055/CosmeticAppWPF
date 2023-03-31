@@ -18,20 +18,27 @@
 
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1.25*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             
         </Grid.RowDefinitions>
-        <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Grid.ColumnSpan="4" Grid.RowSpan="4">
+        <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}" Grid.ColumnSpan="4" Grid.RowSpan="5">
            
         </Border>
         <TextBlock Text="قائمة الطلبيات" FontSize="30" Foreground="{DynamicResource PrimaryTextColor}"/>
-        <ctls:SearchBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" >
+       
+        <!--<ctls:SearchBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" >
 
-        </ctls:SearchBox>
-        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=10}" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="10"/>
-
+        </ctls:SearchBox>-->
+        <ctls:ListFilters Grid.Row="1" Grid.ColumnSpan="2"></ctls:ListFilters>
+            
+            
+       
+         
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=10}" Grid.Row="2" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="10"/>
+          
     </Grid>
 </Page>

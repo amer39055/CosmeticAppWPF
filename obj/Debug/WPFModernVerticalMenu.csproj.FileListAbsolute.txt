@@ -66,3 +66,5 @@ D:\Repos\WPFModernVerticalMenu\obj\Debug\WPFModernVerticalMenu.csproj.GenerateRe
 D:\Repos\WPFModernVerticalMenu\obj\Debug\WPFModernVerticalMenu.csproj.CoreCompileInputs.cache
 D:\Repos\WPFModernVerticalMenu\obj\Debug\WPFModernVerticalMenu.exe
 D:\Repos\WPFModernVerticalMenu\obj\Debug\WPFModernVerticalMenu.pdb
+D:\Repos\WPFModernVerticalMenu\obj\Debug\Controls\ListFilters.g.cs
+D:\Repos\WPFModernVerticalMenu\obj\Debug\Controls\ListFilters.baml

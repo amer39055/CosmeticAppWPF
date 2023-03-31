@@ -83,16 +83,16 @@ namespace WPFModernVerticalMenu
             Popup.IsOpen = false;
         }
 
-        private void btnProductStock_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (Tg_Btn.IsChecked == false)
-            {
-                Popup.PlacementTarget = btnProductStock;
-                Popup.Placement = PlacementMode.Right;
-                Popup.IsOpen = true;
-                Header.PopupText.Text = "Product Stock";
-            }
-        }
+        //private void btnProductStock_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    if (Tg_Btn.IsChecked == false)
+        //    {
+        //        Popup.PlacementTarget = btnProductStock;
+        //        Popup.Placement = PlacementMode.Right;
+        //        Popup.IsOpen = true;
+        //        Header.PopupText.Text = "Product Stock";
+        //    }
+        //}
 
         private void btnProductStock_MouseLeave(object sender, MouseEventArgs e)
         {
@@ -117,31 +117,31 @@ namespace WPFModernVerticalMenu
             Popup.IsOpen = false;
         }
 
-        private void btnBilling_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (Tg_Btn.IsChecked == false)
-            {
-                Popup.PlacementTarget = btnBilling;
-                Popup.Placement = PlacementMode.Right;
-                Popup.IsOpen = true;
-                Header.PopupText.Text = "Billing";
-            }
-        }
+        //private void btnBilling_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    if (Tg_Btn.IsChecked == false)
+        //    {
+        //        Popup.PlacementTarget = btnBilling;
+        //        Popup.Placement = PlacementMode.Right;
+        //        Popup.IsOpen = true;
+        //        Header.PopupText.Text = "Billing";
+        //    }
+        //}
 
-        private void btnBilling_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Popup.Visibility = Visibility.Collapsed;
-            Popup.IsOpen = false;
-        }
+        //private void btnBilling_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    Popup.Visibility = Visibility.Collapsed;
+        //    Popup.IsOpen = false;
+        //}
 
         private void btnPointOfSale_MouseEnter(object sender, MouseEventArgs e)
         {
             if (Tg_Btn.IsChecked == false)
             {
-                Popup.PlacementTarget = btnPointOfSale;
+                Popup.PlacementTarget = btnOrders;
                 Popup.Placement = PlacementMode.Right;
                 Popup.IsOpen = true;
-                Header.PopupText.Text = "Poin Of Sale";
+                Header.PopupText.Text = "Orders";
             }
         }
 
@@ -158,22 +158,22 @@ namespace WPFModernVerticalMenu
             Popup.Visibility = Visibility.Collapsed;
             Popup.IsOpen = false;
         }
-        private void btnSetting_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (Tg_Btn.IsChecked == false)
-            {
-                Popup.PlacementTarget = btnSetting;
-                Popup.Placement = PlacementMode.Right;
-                Popup.IsOpen = true;
-                Header.PopupText.Text = "Setting";
-            }
-        }
+        //private void btnSetting_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    if (Tg_Btn.IsChecked == false)
+        //    {
+        //        Popup.PlacementTarget = btnSetting;
+        //        Popup.Placement = PlacementMode.Right;
+        //        Popup.IsOpen = true;
+        //        Header.PopupText.Text = "Setting";
+        //    }
+        //}
 
-        private void btnSetting_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Popup.Visibility = Visibility.Collapsed;
-            Popup.IsOpen = false;
-        }
+        //private void btnSetting_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    Popup.Visibility = Visibility.Collapsed;
+        //    Popup.IsOpen = false;
+        //}
         // End: MenuLeft PopupButton //
 
         // Start: Button Close | Restore | Minimize 
@@ -210,10 +210,13 @@ namespace WPFModernVerticalMenu
             fContainer.Navigate(new System.Uri("Pages/AddProduct.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        private void btnProductStock_Click(object sender, RoutedEventArgs e)
-        {
-            fContainer.Navigate(new System.Uri("Pages/ProductList.xaml", UriKind.RelativeOrAbsolute));
-        }
+        // <CanceledEvent>
+        // this event has been canceled , no need for Productslist page 
+        //private void btnProductStock_Click(object sender, RoutedEventArgs e)
+        //{
+        //    fContainer.Navigate(new System.Uri("Pages/ProductList.xaml", UriKind.RelativeOrAbsolute));
+        //}
+        //</CanceledEvent> 
 
         private void btnOrders_Click(object sender, RoutedEventArgs e)
         {

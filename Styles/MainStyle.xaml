@@ -128,4 +128,22 @@
 
     </Style>
     <!-- End General Buttons-->
+    <Style x:Key="FiltersStyle" TargetType="{x:Type StackPanel}">
+        <Setter Property="Background" Value="Transparent"></Setter>
+        <Setter Property="Width" Value="400"></Setter>
+        <Setter Property="Height" Value="40"></Setter>
+        <Setter Property="Margin" Value="0,0,0,0"></Setter>
+        <Style.Resources>
+            <Style TargetType="Button">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+                <Setter Property="Margin" Value="5"></Setter>
+                <Setter Property="Width" Value="100"></Setter>
+                <Setter Property="Height" Value="25"></Setter>
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="Foreground" Value="Black"></Setter>
+                
+            </Style>
+        </Style.Resources>
+    </Style>
 </ResourceDictionary>

@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="WPFModernVerticalMenu.Controls.ListFilters"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFModernVerticalMenu.Controls"
+             mc:Ignorable="d" FlowDirection="RightToLeft"
+             d:DesignHeight="100" d:DesignWidth="600">
+    <Grid>
+        <StackPanel x:Name="spFilters" Orientation="Horizontal" Style="{DynamicResource FiltersStyle}">
+            <Button x:Name="btnDayfilter"  Content="حسب اليوم" ></Button>
+            <Button x:Name="btnMonthFilter" Content="حسب الشهر"></Button>
+            <Button x:Name="btnAll" Content="الكل" ></Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

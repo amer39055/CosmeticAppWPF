@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Repos\WPFModernVerticalMenu\App.xaml
-14-58169259
+15-1298353580
 
-15-1968954267
+16-656490550
 13-38814620
-Assets\Icons.xaml;Controls\MenuItem.xaml;Controls\SearchBox.xaml;Controls\UserPopup.xaml;MainWindow.xaml;Pages\AddOrders.xaml;Pages\Dashboard.xaml;Pages\Home.xaml;Pages\Addproduct.xaml;Pages\Productinfo.xaml;Pages\OrdersList.xaml;Pages\ProductList.xaml;Styles\MainStyle.xaml;Themes\DarkTheme.xaml;
+Assets\Icons.xaml;Controls\ListFilters.xaml;Controls\MenuItem.xaml;Controls\SearchBox.xaml;Controls\UserPopup.xaml;MainWindow.xaml;Pages\AddOrders.xaml;Pages\Dashboard.xaml;Pages\Home.xaml;Pages\Addproduct.xaml;Pages\Productinfo.xaml;Pages\OrdersList.xaml;Pages\ProductList.xaml;Styles\MainStyle.xaml;Themes\DarkTheme.xaml;
 
 False
 
